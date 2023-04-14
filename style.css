@@ -6,15 +6,19 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav{
     font-family: 'ubuntu', sans-serif;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
 }
 nav ul{
     display: flex;
     list-style-type: none;
     height: 50px;
-    background-color: black;
     color: white;
     align-items: center;
 }
@@ -65,7 +69,7 @@ nav ul li{
     width: 70%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url(/image/background\ 2.jpg);
+    background-image: url(image/background\ 2.jpg);
 }
 
 .bottom{
